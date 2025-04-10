@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #141414;
+}
+
+.navbar .logo a {
+  color: #e50914;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+  color: #e50914;
+}
+.profile a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.profile a:hover {
+  background-color: #e50914;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #141414;
+}
+
+.navbar .logo a {
+  color: #e50914;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+  color: #e50914;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: black; /* Background is now black */
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Centers navigation horizontally */
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Adds space between links */
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  overflow-y: hidden;
+}
+
+.carousel img {
+  width: 200px;
+  border-radius: 10px;
+  transition: transform 10s;
+}
+
+.carousel img hover{
+  transform: scale(3,4);
+}

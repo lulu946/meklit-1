@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #141414;
+}
+
+.navbar .logo a {
+    color: #e50914;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    color: #e50914;
+}
+
+.profile a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.profile a:hover {
+    background-color: #e50914;
+}
+body {
+    background-color: black;
+  }
+  img {
+    float: left;
+  }
+h2 {
+    font-style: 30px;
+    color: white;
+  }
+  
+  p {
+    text-align: right;
+    color: white;
+    font-size: 16px;
+    display: flex;
+  }
+  body {
+    margin: 0;
+    padding-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000; /* Netflix background color */
+}
+
+.trending-section {
+    padding-bottom: 10px 0;
+    display: flex;
+    padding-left: 20px;
+}
+
+.trending-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px; /* Consistent left margin */
+    margin-bottom: 15px;
+}
+
+.poster-list-container {
+    display: flex;
+    overflow-x: auto;
+    padding-left: 40px; /* Left padding for the whole list */
+    padding-bottom: 15px; /* Add some padding at the bottom */
+    
+}
+
+.poster-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px; /* Space between posters */
+}
+
+.poster-item {
+    position: relative; /* For absolute positioning of the number */
+    flex: 0 0 auto;  /* Don't grow, and take up defined width */
+    width: 130px; /* Approximate poster width */
+    height: auto;
+    border-radius: 4px;
+    overflow: hidden; /* Ensure number doesn't overflow rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+.poster-item img {
+    width: 100%;
+    height: auto;
+    display: block; /*removes extra space below image*/
+}
+
+.poster-number {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    /* stylelint-disable-next-line property-no-vendor-prefix */
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.8); /* Add a dark stroke */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Position from the right */
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+/* Hide scrollbar, but allow scrolling */
+.poster-list-container::-webkit-scrollbar {
+    display: none;
+}
+
+.poster-list-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.movie-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 40px;
+    gap: 15px;
+}
+
+.movie-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.movie-description {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.movie-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* --- Responsive adjustments --- */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .right-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right-nav input,
+    .right-nav button,
+    .right-nav select {
+        margin-bottom: 10px;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .logo span {
+        font-size: 20px;
+    }
+
+    .movie-section {
+        align-items: center;
+        text-align: center;
+    }
+
+    .movie-image img {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+

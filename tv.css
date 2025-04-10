@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* --- TV Show Section Styles --- */
+.tv-show-section {
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.tv-show-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.tv-show-description{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.tv-show-list-container {
+    display: flex;
+    overflow-x: auto;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+.tv-show-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.tv-show-item {
+    position: relative;
+    flex: 0 0 auto;
+    width: auto; /* Adjusted width to image width */
+    height: auto;  /* Adjusted height to image height*/
+    border-radius: 0px; /* Removed border radius */
+    overflow: hidden;
+    box-shadow: none; /* Removed shadow */
+    margin-right: 15px; /* Added right margin between images */
+}
+
+.tv-show-item img {
+    width: 200px; /* Set the width of the image */
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.tv-show-number {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    display: none; /* Removed numbers */
+}
+
+.tv-show-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    display: none; /* Removed arrows */
+}
+
+.tv-show-arrow:hover {
+    opacity: 1;
+}
+
+.tv-show-list-container::-webkit-scrollbar {
+    display: none;
+}
+
+.tv-show-list-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* --- Responsive adjustments --- */
+@media (max-width: 768px) {
+    .tv-show-item {
+        width: 100%;
+        height: auto;
+    }
+
+    .tv-show-list-container {
+        padding-left: 10px;
+    }
+
+    .tv-show-title {
+        margin-left: 10px;
+    }
+}
