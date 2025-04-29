@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Arial, sans-serif;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -18,10 +22,14 @@
   text-decoration: none;
 }
 
+
+
+
 .navbar nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 56px;
+  gap: ;
 }
 
 .navbar nav ul li a {
@@ -32,9 +40,7 @@
   transition: color 0.3s ease;
 }
 
-.navbar nav ul li a:hover {
-  color: #e50914;
-}
+
 .profile a {
   color: #fff;
   font-size: 16px;
@@ -47,6 +53,12 @@
 .profile a:hover {
   background-color: #e50914;
 }
+
+
+.navbar nav ul li a:hover {
+  color: #e50914;
+}
+
 body {
   font-family: Arial, sans-serif;
 }

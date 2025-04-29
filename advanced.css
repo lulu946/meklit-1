@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 2000px; /* For scroll demonstration */
+  }
+
+  .box {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .static {
+    background:rgb(38, 0, 255);
+    position: static;
+  }
+
+  .relative {
+    background:rgb(0, 255, 128) ;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+
+  .absolute-container {
+    position: relative;
+    height: 200px;
+    background: #ecf1ec00;
+    margin-top: 20px;
+  }
+
+  .absolute {
+    background: #e67e22;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .fixed {
+    background: #9b59b6;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+
+  .sticky {
+    background: #e74c3c;
+    position: sticky;
+    top: 0;
+  }
+
+  .spacer {
+    height: 1000px;
+  }
