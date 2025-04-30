@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile 1.css">
+    <title>Single Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Who's Watching?</h1>
+        <div class="single-profile-selection">
+            <div class="single-profile-item">
+                <img src="https://occ-0-2164-2160.1.nflxso.net/dnm/api/v6/0DW6CDNvW0qy9eYAYcwvlvZq9Y8/AAAABTYPu9eCPXisjKChYlBwTs7zL9RpqQjR6L6v6wWz7LzE6vT9L5qLvg3jBvEOzVjoxn0k_B99L6vKJi4 পাশ্চাত্য_webp/v=t" alt="User 1">
+                <span>Eyobed </span>
+            </div>
+        </div>
+        <button class="btn-primary">Manage Profiles</button>
+        <div class="manage-profiles-link">
+            <a href="#">Edit Profiles</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
